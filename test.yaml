@@ -26,7 +26,7 @@ metadata:
   name: test-svc
   namespace: default
 spec:
-  type: LoadBalance
+  type: LoadBalancer
   selector:
     app: web
   ports:
