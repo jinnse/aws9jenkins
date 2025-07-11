@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: wed
+        app: web
     spec:
       containers:
       - name: test-pod
